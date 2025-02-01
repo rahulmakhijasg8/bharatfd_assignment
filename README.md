@@ -80,3 +80,13 @@ Make sure you have the following installed on your local machine:
     ```bash
    # run all tests
    pytest
+
+ Endpoints
+
+GET /api/faqs/: List all faqs in english
+GET /api/faqs/?lang=(hi or bn): List all faqs in Hindi or Bengali as per selection
+GET /api/faqs/{id}/: Retrieve specific faq in english
+GET /api/faqs/{id}/?lang=(hi or bn): Retrieve specific faq in Hindi or Bengali as per selection
+POST /api/faqs/: Create a new faq
+PUT /api/faqs/{id}/: Update an faq
+DELETE /api/faqs/{id}/: Delete an faq
